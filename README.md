@@ -5,4 +5,4 @@ This is my first experiment with django, where I have been practicing to initial
 You will see a Happy Halloween message on the 31st of October or how many days are left until Halloween on any other day.  
 
 Task Screenshot:
-<img src="/assets/images/app_screenshot.png" style="border: 2px solid  gray;">
+<img src="/assets/images/app_screenshot.png" style="border: 2px solid gray;">
