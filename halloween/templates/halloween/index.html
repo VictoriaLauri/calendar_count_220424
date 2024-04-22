@@ -1,0 +1,26 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static 'halloween/styles.css' %}">
+  <title>Halloween Days Counter</title>
+</head>
+<body>
+  <div class="image">
+  <img src="{% static 'halloween/halloween-header.jpg' %}" alt="Halloween Header Image">
+  </div>
+  <div class="countdown-container">
+    <div style="font-weight: 700;">How many days until Halloween?</div>
+    <div id="countdown">
+      {% if days == 0 %}
+        <p>It's Halloween today!</p>
+      {% else %}
+        <p>{{ days }} days</p>
+      {% endif %}
+    </div>
+  </div>
+</body>
+</html>
